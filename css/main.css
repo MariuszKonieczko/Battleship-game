@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+
+#board {
+  position: relative;
+  width: 1024px;
+  height: 860px;
+  background-image: url(/image/board.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+#messageArea {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #53af13;
+  padding: 5px;
+}
+
+form {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #53af13;
+  padding: 10px;
+}
+
+form input {
+  font-size: 1em;
+  border-color: #53af13;
+  background-color: #98cf71;
+}
+
+table {
+  position: absolute;
+  top: 98px;
+  left: 173px;
+  border-collapse: collapse;
+}
+
+td {
+  width: 93px;
+  height: 93px;
+}
+
+.hit {
+  background-image: url(/image/ship.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.miss {
+  background-image: url(/image/miss2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
